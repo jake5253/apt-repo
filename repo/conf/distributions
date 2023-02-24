@@ -1,0 +1,7 @@
+Origin: spearmint
+Label: spearmint
+Codename: vicky
+Architectures: source armhf aarch64
+Components: main import backport upstream
+Description: Apt repository for project spearmint
+SignWith: 3679C48A520BBDD48A16E03AF3A65F5880E7727C

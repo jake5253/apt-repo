@@ -1,0 +1,19 @@
+name: spearmint
+origin: spearmint APT repo
+label: spearmint-repo
+codename: vicky
+arch:
+  - armhf
+  - aarch64
+components:
+  - main
+  - import
+  - upstream
+  - backport
+description: APT repo for ARM versions of Linuxmint
+server_admin_email: jakeadmin@gmail.com
+host: github
+ssl:
+  key: .files/host.key
+  cert: .files/host.cert
+port: 443
